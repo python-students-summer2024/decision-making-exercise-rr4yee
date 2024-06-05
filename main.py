@@ -36,6 +36,7 @@ def main():
 
     # print out the total cost of a face masks purchase
     print()  # line break!
+    
     total = get_discount()
     print("The total cost of your face masks is: {}.".format(total))
 
