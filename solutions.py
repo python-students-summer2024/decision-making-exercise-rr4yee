@@ -104,7 +104,7 @@ def get_discount():
       :returns: The cost of the masks, after any discounts, e.g. "$4,000" for 1000 masks.
     """
     #### write your solution for this function below here. ####
-    masks = int(input("How many masks would you like?"))
+    masks = int(input("How many masks would you like? "))
     cost = 5
     discount_number = 5000
     discount = 0.20
@@ -134,6 +134,6 @@ def is_leap_year():
             else:
                 return False
         else:
-            return False
+            return True
     else: 
         return False
